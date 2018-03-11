@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prodapt.ServerTrack.Api", "Prodapt.ServerTrack.Api\Prodapt.ServerTrack.Api.csproj", "{D0875281-757F-43CB-886F-BC723CFFA67B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prodapt.ServerTrack.Api.Tests", "Prodapt.ServerTrack.Api.Tests\Prodapt.ServerTrack.Api.Tests.csproj", "{0FD4F978-A2EE-4BA7-B31B-A954CC5A429A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prodapt.ServerTrack.Api.EF", "Prodapt.ServerTrack.Api.Data\Prodapt.ServerTrack.Api.EF.csproj", "{9E8D00C8-1DA7-45C1-8981-2AA43B4D1BAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prodapt.ServerTrack.Api.DataContract", "Prodapt.ServerTrack.Api.DataContract\Prodapt.ServerTrack.Api.DataContract.csproj", "{CADAC503-9EF6-4507-93AE-D5D6024BD4ED}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Prodapt.ServerTrack.Database", "Prodapt.ServerTrack.Database\Prodapt.ServerTrack.Database.sqlproj", "{1029C6C8-3C99-4938-959E-C5EEC9CF728F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0875281-757F-43CB-886F-BC723CFFA67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0875281-757F-43CB-886F-BC723CFFA67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0875281-757F-43CB-886F-BC723CFFA67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0875281-757F-43CB-886F-BC723CFFA67B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FD4F978-A2EE-4BA7-B31B-A954CC5A429A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD4F978-A2EE-4BA7-B31B-A954CC5A429A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD4F978-A2EE-4BA7-B31B-A954CC5A429A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD4F978-A2EE-4BA7-B31B-A954CC5A429A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8D00C8-1DA7-45C1-8981-2AA43B4D1BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8D00C8-1DA7-45C1-8981-2AA43B4D1BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8D00C8-1DA7-45C1-8981-2AA43B4D1BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8D00C8-1DA7-45C1-8981-2AA43B4D1BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CADAC503-9EF6-4507-93AE-D5D6024BD4ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADAC503-9EF6-4507-93AE-D5D6024BD4ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADAC503-9EF6-4507-93AE-D5D6024BD4ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADAC503-9EF6-4507-93AE-D5D6024BD4ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1029C6C8-3C99-4938-959E-C5EEC9CF728F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1029C6C8-3C99-4938-959E-C5EEC9CF728F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1029C6C8-3C99-4938-959E-C5EEC9CF728F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1029C6C8-3C99-4938-959E-C5EEC9CF728F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1029C6C8-3C99-4938-959E-C5EEC9CF728F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1029C6C8-3C99-4938-959E-C5EEC9CF728F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F25F389-F78F-4FF9-AF02-DA94F96A7C61}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://keesari.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Prodapt.ServerTrack.Api.Tests\\Prodapt.ServerTrack.Api.Tests.csproj
+		SccProjectName1 = Prodapt.ServerTrack.Api.Tests
+		SccLocalPath1 = Prodapt.ServerTrack.Api.Tests
+		SccProjectUniqueName2 = Prodapt.ServerTrack.Api\\Prodapt.ServerTrack.Api.csproj
+		SccProjectName2 = Prodapt.ServerTrack.Api
+		SccLocalPath2 = Prodapt.ServerTrack.Api
+		SccProjectUniqueName3 = Prodapt.ServerTrack.Api.DataContract\\Prodapt.ServerTrack.Api.DataContract.csproj
+		SccProjectName3 = Prodapt.ServerTrack.Api.DataContract
+		SccLocalPath3 = Prodapt.ServerTrack.Api.DataContract
+		SccProjectUniqueName4 = Prodapt.ServerTrack.Api.Data\\Prodapt.ServerTrack.Api.EF.csproj
+		SccProjectName4 = Prodapt.ServerTrack.Api.Data
+		SccLocalPath4 = Prodapt.ServerTrack.Api.Data
+		SccProjectUniqueName5 = Prodapt.ServerTrack.Database\\Prodapt.ServerTrack.Database.sqlproj
+		SccProjectName5 = Prodapt.ServerTrack.Database
+		SccLocalPath5 = Prodapt.ServerTrack.Database
+	EndGlobalSection
+EndGlobal
